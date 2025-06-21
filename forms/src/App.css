@@ -1,0 +1,92 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #f0f4f8;
+  max-width: 650px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+h2, h3 {
+  color: #1e2d3b;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  color: #34495e;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  border-color: #2ecc71;
+  outline: none;
+  box-shadow: 0 0 5px rgba(46, 204, 113, 0.4);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 5px;
+  margin-right: 10px;
+  transform: scale(1.1);
+  accent-color: #2ecc71;
+}
+
+button[type="submit"] {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #27ae60;
+  transform: translateY(-1px);
+}
+
+span,
+div {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+span[style*="color: red"],
+div[style*="color: red"] {
+  margin-top: 5px;
+  color: #e74c3c !important;
+  font-style: italic;
+}
